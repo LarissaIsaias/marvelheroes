@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color:white
+}
+
+#hcont{
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+    background-color: #8b0000;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 3px solid #d09306;
+}
+
+h1{
+    color: white;
+    text-shadow: 3px 3px black;
+    padding-top: 15px;
+    padding-left: 150px;
+    font-size: 40px;
+}
+
+.car{
+    display: block;
+    width: 5%;
+    color: white;
+    text-align: center;
+    text-transform: lowercase;
+    text-decoration: none;
+    background-color: transparent;
+    margin-left: 1000px;
+    margin-top: 65px;
+}
+
+#log{
+    display: block;
+    width: 25%;
+    color: black;
+    padding: 0px;
+    border: none;
+    font-size: 20px;
+    text-decoration: underline;
+    background-color: transparent;
+    margin-left: 0%;
+    margin-top: 40px;
+    
+}
+
+#clog{
+    display: block;
+    width: 50%;
+    color: black;
+    padding: 0px;
+    border: none;
+    font-size: 20px;
+    text-decoration: underline;
+    background-color: transparent;
+    margin-left: 0%;
+    margin-top: 40px;
+}
+
+.container{
+    background-color: black;
+    min-height: 60vh;
+    padding: 60px;
+}
+
+.products-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-image{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid #d09306;
+    border-radius: 20px;
+}
+
+.card{
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+#img-1{
+    background-image: url('../Imagens/img1.jpg');
+}
+#img-2{
+    background-image: url('../Imagens/img2.jpg');
+}
+#img-3{
+    background-image: url('../Imagens/img3.jpg');
+}
+#img-4{
+    background-image: url('../Imagens/img4.jpg');
+}
+#img-5{
+    background-image: url('../Imagens/img5.jpg');
+}
+
+#img-6{
+    background-image: url('../Imagens/img6.jpg')
+}
+
+h3{
+    margin-bottom: 10px;
+    color: white;
+    border-left: 5px solid #8b0000;
+    padding-left: 7px;
+    font-size: 24px;
+}
+
+.card p{
+    margin-bottom: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #8b0000;
+    color: white;
+    padding: 15px;
+    
+}
