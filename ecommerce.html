@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heróis marvel</title>
+    <script src="ecommerce.js" defer></script>
+    <link rel = 'stylesheet' href="Css/styles.css">
+</head>
+<body>
+    <header>
+        <div id="hcont">
+            <button onclick="crialogin()" id="clog">Crie seu Login</button>
+            <button onclick="abreTelaLogin()" id="log">Login</button>
+            <h1>Loja dos vingadores</h1>
+            <a href="#" onclick="calculaCesta" class="car" img src="Imagens/carrinho.png" alt="carrinho de compras">Compras</a>
+        </div>
+    </header>
+    <main class="container">
+        <section class="products-container">
+            <h2>Escolha o(s) personagem(s) e clique em comprar</h2>
+            <article class="card">
+                <div class="product-image" id="img-1"></div>
+                <h3>Homem-Aranha</h3>
+                <p input type="number" value="1" min="1" max="10" id="qtd-1">Qtd: </p>
+                <p>R$ <span id="Hm" class="bold">249,99</span></p>
+                <a onclick="compraHa()" href="https://www.amazon.com.br/dp/B0BS4DKV36" target="_blank">comprar</a>
+            </article>
+            <article class="card">
+                <div class="product-image" id="img-2"></div>
+                <h3>Thor</h3>
+                <p input type="number" value="1" min="1" max="10" id="qtd-1">Qtd: </p>
+                <p>R$ <span id="Th" class="bold">249,99</span></p>
+                <a onclick="compraTh()" href="https://www.amazon.com.br/Boneco-Marvel-Legends-Figura-acess%C3%B3rios/dp/B0BS4GMMNG" target="_blank">comprar</a>
+            </article>
+            <article class="card">
+                <div class="product-image" id="img-3"></div>
+                <h3>Hulk</h3>
+                <p input type="number" value="1" min="1" max="10" id="qtd-1">Qtd: </p>
+                <p>R$ <span id="Hu" class="bold">99,99</span></p>
+                <a onclick="compraHu()" href="https://www.amazon.com.br/Boneco-Action-Figure-Titan-Hasbro/dp/B0845MR392" target="_blank">comprar</a>
+            </article>
+            <article class="card">
+                <div class="product-image" id="img-4"></div>
+                <h3>Homem de ferro</h3>
+                <p input type="number" value="1" min="1" max="10" id="qtd-1">Qtd: </p>
+                <p>R$ <span id="Hf" class="bold">229,99</span></p>
+                <a onclick="compraHf()" href="https://www.amazon.com.br/Boneco-Marvel-Legends-Figura-acess%C3%B3rios/dp/B0BS4QVFVH" target="_blank">comprar</a>
+            </article>
+            <article class="card">
+                <div class="product-image" id="img-5"></div>
+                <h3>Capitão america</h3>
+                <p input type="number" value="1" min="1" max="10" id="qtd-1">Qtd: </p>
+                <p>R$ <span id="Ca" class="bold">319,95</span></p>
+                <a onclick="compraCa()" href="https://www.amazon.com.br/Boneco-Marvel-Legends-Capit%C3%A3o-Am%C3%A9rica/dp/B0BS4F5544" target="_blank">comprar</a>
+            </article>
+            <article class="card">
+                <div class="product-image" id="img-6"></div>
+                <h3>Capitã marvel</h3>
+                <p input type="number" value="1" min="1" max="10" id="qtd-1">Qtd: </p>
+                <p>R$ <span id="Cm" class="bold">319,95</span></p>
+                <a onclick="compraCm()" href="https://www.amazon.com.br/Boneca-Marvel-Legends-Marvels-acess%C3%B3rios/dp/B0B3G71YLB?source=ps-sl-shoppingads-lpcontext&" target="_blank">comprar</a>
+            </article>
+        </section>
+    </main>
+    <footer id="rodape">
+        <h2>informações sobre o site</h2>
+        <p><span class="bold">Marvel Comics</span> &copy; 2024</p>
+    </footer>
+</body>
+</html>
